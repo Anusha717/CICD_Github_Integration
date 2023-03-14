@@ -125,6 +125,11 @@
           <artifactId>maven-resources-plugin</artifactId>
           <version>2.5</version>
         </plugin>
+               <plugin>
+                      <groupId>org.apache.maven.plugins</groupId>
+                      <artifactId>maven-war-plugin</artifactId>
+                      <version>3.3.2</version>
+                  </plugin>
 
         <plugin>
           <artifactId>maven-site-plugin</artifactId>
@@ -214,7 +219,7 @@
   </scm>
 
   <prerequisites>
-    <maven>3.0.3</maven>
+    <maven>3.0.5</maven>
   </prerequisites>
 
 </project>
